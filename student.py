@@ -100,3 +100,5 @@ if uploaded_file:
         ]
         prediction = model.predict([encoded_input])[0]
         st.success(f"🧠 Predicted {target_col}: {prediction:.2f}")
+
+
